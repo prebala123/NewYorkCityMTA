@@ -2,7 +2,11 @@
 
 This project analyzes the average ridership between different subway stations in the New York City MTA to understand where the highest levels of congestion are. We use a graph representation to model the subway network and use properties of graphs to summarize the congestion at and between stations
 
-## Retrieving the Data
+## Prerequisites
+
+Install the dependencies by running `pip install -r requirements.txt`
+
+## Dataset
 
 First download the two datasets from <br>
 (1) https://data.ny.gov/Transportation/MTA-Subway-Stations/39hk-dx4f/about_data <br>
@@ -14,6 +18,6 @@ Make sure that the files are called <br>
 
 Then add the csv files to the `data` folder.
 
-## Running the Project
+## Running
 
-First install the dependencies by running `pip install -r requirements.txt`. Then run the Jupyter Notebook to get the results of the analysis.
+All of the code is in the jupyter notebook in the src folder. Run the cells in the notebook to get the results of the analysis.
